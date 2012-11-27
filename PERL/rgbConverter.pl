@@ -154,6 +154,7 @@ sub gatherRGB {
 ##################################################################################
 sub convertToBase16 {
 	 my $temp_hex = 0;
+	 
 	 print "\nConverting RED decimal values into base 16.\n";
 	 foreach(@dec_red) {
 		$temp_hex = cnv($_, 10, 16);
