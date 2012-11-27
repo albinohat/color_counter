@@ -1,3 +1,7 @@
+# Author: Daniel Mercado
+# Purpose: Read in RGB decimal values for an image, convert values to base 16 and
+# optionally call the hexCodeCounter.pl script.
+
 #!/usr/bin/perl
 use strict;
 use warnings;
@@ -150,7 +154,6 @@ sub gatherRGB {
 ##################################################################################
 sub convertToBase16 {
 	 my $temp_hex = 0;
-	 
 	 print "\nConverting RED decimal values into base 16.\n";
 	 foreach(@dec_red) {
 		$temp_hex = cnv($_, 10, 16);

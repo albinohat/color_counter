@@ -1,3 +1,6 @@
+# Author: Daniel Mercado
+# Purpose: Count the number of unique HEX codes as well as the occurences of each unique HEX code.
+
 #!/usr/bin/perl;
 use strict;
 use warnings;
